@@ -19,9 +19,7 @@ function addMarker(){
 	         });
 		 marker.setLabel(label);//显示地理名称 a 
 		 map.addOverlay(marker); 
-		 //marker.setAnimation(BMAP_ANIMATION_BOUNCE);
 		 pointArray.push(point);
-		//console.log(point);
 	}
 	  var sy = new BMap.Symbol(BMap_Symbol_SHAPE_BACKWARD_OPEN_ARROW, {
 		    scale: 0.6,//图标缩放大小
