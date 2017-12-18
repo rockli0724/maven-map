@@ -22,7 +22,7 @@ hQGHuMEAyLn('[id="bb9c190068b8405587e5006f905e790c"]');</script> -->
 <body>
 <h1>baidu Map begin <a href="javascript:addMarker();">addMarker</a>
 <a href="javascript:deleteMarker();">deleteMarker</a>
-<a href="./map.jsp">进入地图</a>
+<!-- <a href="./map.jsp">进入地图</a> -->
 </h1>
 	<div id="allmap"></div>
 </body>
@@ -38,6 +38,6 @@ hQGHuMEAyLn('[id="bb9c190068b8405587e5006f905e790c"]');</script> -->
         ]})); */	  
 	map.setCurrentCity("上海");          // 设置地图显示的城市 此项是必须设置的
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-	var marker = new BMap.Marker(new BMap.Point(121.464714,31.222718)); // 创建点
+	//var marker = new BMap.Marker(new BMap.Point(121.464714,31.222718)); // 创建点
 	//map.addOverlay(marker);   
 </script>
